@@ -1,0 +1,22 @@
+{
+  "name": "gava/ex2",
+  "description": "Excericio 2 - Ponto Eletrônico",
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "^6.5",
+    "symfony/dom-crawler": "^3.4",
+    "symfony/css-selector": "^3.4",
+    "forseti/logger": "^1.7"
+  },
+  "authors": [
+    {
+      "name": "Matheus Gava",
+      "email": "matheus.silva@forseti.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Forseti\\PontoEletronico\\": "src/"
+    }
+  }
+}
